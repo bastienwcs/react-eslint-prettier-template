@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
+import ParkingList from './components/ParkingList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>React starter template</h1>
-      </header>
+      <ParkingList />
     </div>
   );
 }
